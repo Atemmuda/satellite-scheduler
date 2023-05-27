@@ -1,2 +1,2 @@
-# satlite-scheduler
-Fullsack web application using NodeJs for backend and React for the frontend
+# satellite-scheduler
+Fullsack web application using NodeJS for backend and ReactJS for the frontend
