@@ -1,0 +1,19 @@
+{
+  "name": "satellite-scheduler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "install-backend": "npm install --prefix backend",
+    "install-frontend": "npm install --prefix frontend",
+    "install": "npm run install-backend && npm run install-frontend",
+    "backend": "npm run watch --prefix backend",
+    "frontend": "npm start --prefix frontend",
+    "watch": "npm run backend & npm run frontend",
+    "deploy": "npm run build --prefix frontend && npm start --prefix backend",
+    "test": "npm test --prefix backend && npm run test --prefix frontend"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
