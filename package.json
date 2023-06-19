@@ -11,9 +11,10 @@
     "frontend": "npm start --prefix frontend",
     "watch": "npm run backend & npm run frontend",
     "deploy": "npm run build --prefix frontend && npm start --prefix backend",
+    "deploy-cluster": "npm run build --prefix frontend && npm run cluster --prefix backend",
     "test": "npm test --prefix backend && npm run test --prefix frontend"
   },
   "keywords": [],
-  "author": "",
+  "author": "Kankam Nathaniel",
   "license": "ISC"
 }
